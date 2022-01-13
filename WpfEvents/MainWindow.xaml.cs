@@ -23,6 +23,12 @@ namespace WpfEvents
         public MainWindow()
         {
             InitializeComponent();
+            bouton.Click += bouton_MyOtherClick;
+        }
+
+        private void bouton_MyOtherClick(object sender, RoutedEventArgs e)
+        {
+            myOtherLabel.Content = "Hello again!";
         }
 
         private void bouton_Click(object sender, RoutedEventArgs e)

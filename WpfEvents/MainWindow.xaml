@@ -9,6 +9,7 @@
     <Grid Margin="-484,-170,-904,-106">
         <Button x:Name="bouton" Content="CLICK ME" HorizontalAlignment="Left" Height="79" Margin="521,226,0,0" VerticalAlignment="Top" Width="217" Click="bouton_Click" IsCancel="True"/>
         <Label x:Name="myLabel" Content="" HorizontalAlignment="Left" Height="40" Margin="910,226,0,0" VerticalAlignment="Top" Width="269"/>
+        <Label x:Name="myOtherLabel" Content="" HorizontalAlignment="Left" Height="104" Margin="835,355,0,0" VerticalAlignment="Top" Width="259"/>
 
     </Grid>
 </Window>
